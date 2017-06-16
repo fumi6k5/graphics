@@ -10,7 +10,7 @@ graphics.o: graphics.c
 	gcc -c graphics.c $(LDLIBS)
 
 
-test1: simple
+test: simple
 	./simple
 
 clean:
